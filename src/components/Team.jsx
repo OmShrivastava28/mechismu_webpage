@@ -222,7 +222,7 @@ const Team = () => {
             ))}
           </div>
 
-          <h3 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-primary dark:text-primary">Active Members</h3>
+          <h3 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-primary dark:text-primary">Current Members</h3>
           <motion.div variants={itemVariants}>
             <Card className="shadow-lg hover:shadow-xl transition-all duration-300 bg-gray-50 dark:bg-gray-800 rounded-xl">
               <CardHeader>
